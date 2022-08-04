@@ -1,0 +1,113 @@
+* {
+    top: 0;
+    left: 0;
+}
+#header {
+    background-color: #c60;
+    position: fixed;
+    width: 100%;
+    
+}
+#psudo-header {
+    margin: 38px 0px;
+    visibility: hidden;
+    width: 100%;
+}
+#header-heading {
+    /* text-align: center; */
+    color: white;
+    font-size: 1.8rem;
+    font-family: Tahoma,Geneva,sans-serif;
+    /* width: 70%; */
+    padding-left: 20%;
+    padding-right: 13%;
+}
+#header-img {
+    float: left;
+}
+div#navbar {
+    height: 3rem;
+}
+div#content {
+    width: 62%;
+    float: left;
+    padding-left: 9rem;
+    box-sizing: border-box;
+}
+div#content p {
+    font-family: Georgia,Times,serif;
+    font-size: 1.3rem;
+    /* color: #333; */
+    font-size: 1.5rem;
+}
+h2#content-heading {
+    font-family: Tahoma,Geneva,sans-serif;
+    /* color: #333; */
+    font-size: 1.8rem;
+    
+}
+div#navbar {
+    display: flex;
+}
+div#navbar li{
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    background-color: #df2525;
+    
+}
+div#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+div#sidebar {
+    width: 34%;
+    float: right;
+    padding-right: 11rem;
+    box-sizing: border-box;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+div#sidebar p {
+    margin: 0;
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+}
+#sidebar h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+div#sidebar h3 {
+    margin: 0;
+    color: #c60;
+    font-size: 1.3rem;
+}
+div#sidebar a {
+    font-size: 1.3rem;
+}
+div#footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    /* position: absolute; */
+    /* top: 100rem; */
+    /* bottom: 0; */
+}
+div#footer li {
+    display: inline-block;
+    list-style: none;
+}
+div#footer a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem .8rem;
+    font-size: 1.5rem;
+    font-family: Tahoma,Geneva,sans-serif;
+}
